@@ -45,10 +45,17 @@ public class EmployeeController {
 
         return ResponseEntity.ok("hello");
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> gauravb
     @GetMapping("/hiii")
     public ResponseEntity<String> hiii() {
 
         return ResponseEntity.ok("hiiiiiiiiiiiiiiii");
+<<<<<<< HEAD
     }
 }
+=======
+}
+>>>>>>> gauravb
