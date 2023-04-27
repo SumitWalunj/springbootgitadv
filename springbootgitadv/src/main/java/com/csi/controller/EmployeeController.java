@@ -39,4 +39,9 @@ public class EmployeeController {
 
         return ResponseEntity.ok("Welcome to my WORLD");
     }
+    @GetMapping("/welcome")
+    public ResponseEntity<String> welcome() {
+
+        return ResponseEntity.ok("hello");
+    }
 }
