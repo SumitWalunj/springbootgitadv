@@ -44,4 +44,8 @@ public class EmployeeController {
 
         return ResponseEntity.ok("hello");
     }
+    @GetMapping("/hiii")
+    public ResponseEntity<String> hiii() {
+
+        return ResponseEntity.ok("hiiiiiiiiiiiiiiii");
 }
